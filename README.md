@@ -14,13 +14,12 @@ pip install 'smolagents[litellm]'
 pip install fastapi uvicorn pydantic
 ```
 
-また、smolagentsプロジェクトの依存関係も必要です。
-
 ### 環境変数
 
 `.env`ファイルを作成し、必要な環境変数を設定してください：
 
 ```
+OPENAI_API_KEY=your_openai_api_key
 HF_TOKEN=your_huggingface_token
 SERPAPI_API_KEY=your_serpapi_key
 ```
