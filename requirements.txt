@@ -36,5 +36,6 @@ pydub
 PyPDF2
 python-pptx
 torch
+rich
 xlrd
 SpeechRecognition
